@@ -1,2 +1,33 @@
 body {
-			background-color: yellow;
+			background-color: #FF5733;
+		}
+	h1 {
+			color: white;
+			text-align: center;
+			font-size: 32pt; 
+		}
+		h2 {
+			color: white;
+			font-size: 26pt; 
+		}
+		h3 {
+			color: white;
+			font-size: 26pt; 
+		}
+		h4 {
+			color: white;
+			font-size: 26pt;
+		}
+		li {
+			color: white;
+			font-size: 15pt;
+			line-height: 2;
+		}
+		p {
+			color: white;
+			font-size: 15pt;
+			line-height: 2;
+		}
+		a {
+			font-size: 22pt;
+		}
