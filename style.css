@@ -1,10 +1,14 @@
 body {
 			background-color: #FF5733;
 		}
-	h1 {
+	h5 {
 			color: white;
 			text-align: center;
 			font-size: 32pt; 
+		}
+		h1 {
+			color: white;
+			font-size: 26pt; 
 		}
 		h2 {
 			color: white;
@@ -30,4 +34,7 @@ body {
 		}
 		a {
 			font-size: 22pt;
+		}
+		img {
+
 		}
