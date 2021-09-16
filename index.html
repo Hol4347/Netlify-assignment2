@@ -10,9 +10,31 @@
 <p>Git is the fast and modern implementation of version control. Git can give history of content changes as well as facilitates change to file. Git is an easy to use function for any type of worker. If I can figure it out, odds are you can!</p>
 <p>GitHub is an interface that uses Git extensively on the interweb. GitHub is a place to store a code and it can lead to a website being published. You can not use the GitHub service withut using git.</p>
 <h2>Useful and basic git/GitHub instructions for beginners</h2>
-<ul>Make sure you create a GitHub account according to your intended purpose of us, either personal or with an organization.
-Make sure you also install git on the computer you are using, for Mac use terminal and for Windows use Command Prompt.</ul>
+<ul>
+<li>Make sure you create a GitHub account according to your intended purpose of us. The choices should either be personal or with an organization.</li>
+<li>Make sure you also install git on the computer you are using. For Mac use Terminal and for Windows use Command Prompt.</li>
+</ul>
+<ol>
+<li>Create a repo folder (normal folder) dedicated to the website somewhere you can find it on your computer.</li>
+<li>Open Terminal and use the cd command (cd means command directory) to put that folder in the space after cd.</li>
+<li>After using the above command and hitting enter, use the git init command to create a new git repository</li>
+<li>Make sure you have a README.md file in your folder and use the git add . command to add it to your git.</li>
+<li>After you do that, use git status to see the changes that have or haven't been made for that file/folder or for any future ones.</li>
+<li>After you add a README.md file, you can add other pages such as an index (or home page) to your website, just make sure you put them in the same folder. Photos and style.css also need to be added in the same folder as well.</li>
+<li>If (and when) you make any changes, you must commit all of your changes so you must use git commit -am "description of changes"</li>
+<li>You need to use git branch -M main to connect the changes between GitHub and the git usage in terminal.</li>
+<li>Afterwards, you must use the function of git remote add origin (add HTTPS link here without parenthesis) to be able to set your GitHub repository and your git account together</li>
+<li>After you make any changes, you must push it to the main branch on GitHub by using git push origin main.</li>
+<li>You can pull your changes from another device by using git pull origin main</li>
+</ol>
+<h3>The basic commands to use over and over again if you're just making a lot of changes:</h3>
+<ul>
+<li>git add .</li>
+<li>git status</li>
+<li>git commit -am description</li>
+<li>pit push origin main</li>
+</ul>
 <p>More functions of HTML can be found with the link below!</p>
-<a href="https://www.w3schools.com/"></a>
+<a href="https://www.w3schools.com/">W3schools.com</a>
 </body>
 </html>
