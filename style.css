@@ -4,23 +4,28 @@ body {
 	h5 {
 			color: white;
 			text-align: center;
-			font-size: 32pt; 
+			font-size: 32pt;
+			font-family: courier new; 
 		}
 		h1 {
 			color: white;
 			font-size: 26pt; 
+			font-family: courier new;
 		}
 		h2 {
 			color: white;
-			font-size: 26pt; 
+			font-size: 26pt;
+			font-family: courier new; 
 		}
 		h3 {
 			color: white;
-			font-size: 26pt; 
+			font-size: 26pt;
+			font-family: courier new;
 		}
 		h4 {
 			color: white;
 			font-size: 26pt;
+			font-family: courier new;
 		}
 		li {
 			color: white;
@@ -34,7 +39,4 @@ body {
 		}
 		a {
 			font-size: 22pt;
-		}
-		img {
-
 		}
